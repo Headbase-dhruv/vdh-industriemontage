@@ -20,7 +20,7 @@ html {
   --spacing: 1px;
   --spacing-sec: clamp(3.4375rem, 2.4603rem + 3.6789vw, 6.875rem);
   --spacing-bottom: clamp(1.5rem, 1rem + 2.5vw, 4rem);
-
+  --spacing-left: clamp(1.5rem,.513rem + 4.048vw,4.688rem);
   --breakpoint-*: initial;
   --container-*: initial;
 
@@ -52,7 +52,7 @@ html {
 
   --text-18: 18px;
 
-  --text-22: clamp(1rem, 0.8934rem + 0.4013vw, 1.375rem);
+  --text-22: clamp(1.125rem, 0.8934rem + 0.4013vw, 1.375rem);
   --text-22--line-height: 1.5;
 }
 
@@ -282,7 +282,7 @@ html {
   }
 
   .compact-box {
-    @apply xl:ps-sec max-w-1000;
+    @apply xl:pl-left max-w-1000;
   }
 
    .wm_wrapper{
